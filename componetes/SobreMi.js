@@ -1,11 +1,14 @@
-import style from "../styles/SobreMi.module.css"
+import style from "../styles/SobreMi.module.css";
+import Layout from "./Layout";
 
 const SobreMi = () => {
   return (
-    <div className={style.container}>
+    <Layout>
+      <div className={style.container} id="SobreMi">
         <h1>Sobre Mi</h1>
-    </div>
-  )
-}
+      </div>
+    </Layout>
+  );
+};
 
-export default SobreMi
+export default SobreMi;
