@@ -13,7 +13,7 @@ const Proyectos = () => {
 
         <Image src="/pokehome.png" alt="imagen" width={800} height={500} />
 
-        <Image src="/proyectoJsImg.png" alt="imagen" width={800} height={500} />
+        <Image src="/proyectojs.png" alt="imagen" width={800} height={500} />
         <Image src="/indexxxxx.png" alt="imagen" width={800} height={500} />
         <Image src="/portadaaaa.png" alt="imagen" width={800} height={500} />
       </div>
