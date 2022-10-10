@@ -27,7 +27,7 @@ p{
   font-size: 1.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -35,4 +35,4 @@ p{
     color: white;
     background: black;
   }
-}
+} */
