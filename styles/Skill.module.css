@@ -11,3 +11,10 @@
     margin-top: 2rem;
     margin: 0 auto;
   }
+
+  .containerIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
