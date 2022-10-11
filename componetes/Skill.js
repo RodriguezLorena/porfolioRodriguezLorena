@@ -44,6 +44,7 @@ const Skill = () => {
         />
         <div className={style.containerIcons}>
           <FontAwesomeIcon
+          className={style.cont}
             icon={faReact}
             style={{
               width: "2rem",
@@ -54,6 +55,7 @@ const Skill = () => {
           />
 
           <FontAwesomeIcon
+          className={style.cont}
             icon={faGithub}
             style={{
               width: "4rem",
@@ -63,6 +65,7 @@ const Skill = () => {
             }}
           />
           <FontAwesomeIcon
+          className={style.cont}
             icon={faNode}
             style={{
               width: "4rem",
@@ -72,6 +75,7 @@ const Skill = () => {
             }}
           />
           <FontAwesomeIcon
+          className={style.cont}
             icon={faJs}
             style={{
               width: "4rem",
@@ -81,6 +85,7 @@ const Skill = () => {
             }}
           />
           <FontAwesomeIcon
+          className={style.cont}
             icon={faCss3}
             style={{
               width: "4rem",
@@ -90,6 +95,7 @@ const Skill = () => {
             }}
           />
           <FontAwesomeIcon
+          className={style.cont}
             icon={faHtml5}
             style={{
               width: "4rem",
@@ -99,6 +105,7 @@ const Skill = () => {
             }}
           />
           <FontAwesomeIcon
+          className={style.cont}
             icon={faBootstrap}
             style={{
               width: "4rem",
@@ -108,6 +115,7 @@ const Skill = () => {
             }}
           />
           <FontAwesomeIcon
+          className={style.cont}
             icon={faSass}
             style={{
               width: "4rem",
@@ -117,6 +125,7 @@ const Skill = () => {
             }}
           />
           <FontAwesomeIcon
+          className={style.cont}
             icon={faLess}
             style={{
               width: "4rem",
@@ -126,6 +135,7 @@ const Skill = () => {
             }}
           />
           <FontAwesomeIcon
+          className={style.cont}
             icon={faFontAwesome}
             style={{
               width: "4rem",
@@ -135,6 +145,7 @@ const Skill = () => {
             }}
           />
           <FontAwesomeIcon
+          className={style.cont}
             icon={faGoogle}
             style={{
               width: "4rem",

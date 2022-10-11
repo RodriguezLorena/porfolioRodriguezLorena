@@ -5,8 +5,9 @@ import Image from "next/image";
 const Proyectos = () => {
   return (
     <Layout>
+      <h1>Mis Proyectos</h1>
       <div className={style.container} id="Proyectos">
-        <h1>Mis Proyectos</h1>
+        
         <div className={style.cardslist}>
           <div className={style.card}>
             <div className={style.cardimage}>
