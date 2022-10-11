@@ -23,7 +23,7 @@ const PaginaInicial = () => {
       </p>
       <Lottie
         options={defaultOptions}
-        style={{ height: "45%", width: "45%" }}
+        style={{ height: "40%", width: "40%" }}
       />
       <span className={style.spam}>
         Un proyecto hecho con mucho mate 🧉 y amor 💖​

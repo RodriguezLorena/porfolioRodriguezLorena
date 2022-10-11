@@ -7,15 +7,66 @@ const Proyectos = () => {
     <Layout>
       <div className={style.container} id="Proyectos">
         <h1>Mis Proyectos</h1>
-        <Image src="/clima.png" alt="imagen" width={800} height={500} />
-
-        <Image src="/landingMia.png" alt="imagen" width={800} height={500} />
-
-        <Image src="/pokehome.png" alt="imagen" width={800} height={500} />
-
-        <Image src="/proyectojs.png" alt="imagen" width={800} height={500} />
-        <Image src="/indexxxxx.png" alt="imagen" width={800} height={500} />
-        <Image src="/portadaaaa.png" alt="imagen" width={800} height={500} />
+        <div className={style.cardslist}>
+          <div className={style.card}>
+            <div className={style.cardimage}>
+              <Image className={style.img} src="/clima.png" alt="imagen" width={800} height={500} />
+            </div>
+            <div className={style.cardtitle}>
+              <p className={style.titlewhite}>Titulo</p>
+            </div>
+          </div>
+        </div>
+        <div className={style.cardslist}>
+          <div className={style.card}>
+            <div className={style.cardimage}>
+              <Image className={style.img} src="/landingMia.png" alt="imagen" width={800} height={500} />
+            </div>
+            <div className={style.cardtitle}>
+              <p className={style.titlewhite}>Titulo</p>
+            </div>
+          </div>
+        </div>
+        <div className={style.cardslist}>
+          <div className={style.card}>
+            <div className={style.cardimage}>
+              <Image className={style.img} src="/pokehome.png" alt="imagen" width={800} height={500} />
+            </div>
+            <div className={style.cardtitle}>
+              <p className={style.titlewhite}>Titulo</p>
+            </div>
+          </div>
+        </div>
+        <div className={style.cardslist}>
+          <div className={style.card}>
+            <div className={style.cardimage}>
+            <Image className={style.img} src="/proyectojs.png" alt="imagen" width={800} height={500} />
+            </div>
+            <div className={style.cardtitle}>
+              <p className={style.titlewhite}>Titulo</p>
+            </div>
+          </div>
+        </div>
+        <div className={style.cardslist}>
+          <div className={style.card}>
+            <div className={style.cardimage}>
+            <Image className={style.img} src="/indexxxxx.png" alt="imagen" width={800} height={500} />
+            </div>
+            <div className={style.cardtitle}>
+              <p className={style.titlewhite}>Titulo</p>
+            </div>
+          </div>
+        </div>
+        <div className={style.cardslist}>
+          <div className={style.card}>
+            <div className={style.cardimage}>
+            <Image className={style.img} src="/portadaaaa.png" alt="imagen" width={800} height={500} />
+            </div>
+            <div className={style.cardtitle}>
+              <p className={style.titlewhite}>Titulo</p>
+            </div>
+          </div>
+        </div>        
       </div>
     </Layout>
   );
