@@ -11,6 +11,10 @@
     margin-top: 2rem;
     margin: 0 auto;
   }
+  .spam{
+    color: #fff;
+    
+  }
   /* @media (max-width: 768px){
     .container{
       justify-content: center;

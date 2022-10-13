@@ -4,13 +4,25 @@
     padding: 2rem 0;
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: rgb(3, 1, 21);
     margin-top:3rem;
     margin: 0 auto;
   }
-  .spam{
-    color: #fff;
+
+  .text{
+    flex-direction: column;
+    padding: 0 2rem;
   }
+ 
+
+
+  @media screen and (max-width:768px)  {
+   .container{
+    flex-direction: column;
+    max-width:auto;
+    min-height: auto;
+   }
+}
