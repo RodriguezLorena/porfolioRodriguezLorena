@@ -13,10 +13,11 @@ const Layout = ({children}) => {
         <meta name="description" content="my porfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Sidebar/>
     <Navbar/>
-    <Sidebar/>
+    
     {children}
+    
     </div>
     
   )

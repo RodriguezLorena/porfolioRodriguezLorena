@@ -15,20 +15,19 @@ const defaultOptions = {
 const PaginaInicial = () => {
   return (
     <div className={style.container}>
+      <div className={style.text}>
       <p>Mi nombre es</p>
       <h1>Silvana Lorena Rodriguez</h1>
       <p>
         Te invito a conocer un poquito de mi. <br />
         Como soy, que hago y lo que me motiva
       </p>
+      </div>
+    
       <Lottie
         options={defaultOptions}
-        style={{ height: "40%", width: "40%" }}
-      />
-      <span className={style.spam}>
-        Un proyecto hecho con mucho mate 🧉 y amor 💖​
-      </span>
-      
+        style={{ height: "100", width:"100" }}
+      /> 
     </div>
   );
 };

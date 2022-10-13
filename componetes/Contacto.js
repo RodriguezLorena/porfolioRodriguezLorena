@@ -21,6 +21,9 @@ const Contacto = () => {
             CONTACTAME
           </a>
         </button>
+        <span className={style.spam}>
+        Un proyecto hecho con mucho mate 🧉 y amor 💖​
+      </span>
       </div>
     </Layout>
   );
