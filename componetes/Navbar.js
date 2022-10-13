@@ -10,6 +10,8 @@ const Navbar = () => {
         <div className={style.content}>
         <h1>  RSL </h1>
         <div>
+          <abbr title="Linkedin">
+          <a href="https://www.linkedin.com/in/silvanalorenarodriguez/">
         <FontAwesomeIcon
                 icon={faLinkedin}
                 style={{
@@ -19,6 +21,10 @@ const Navbar = () => {
                   margin: "0.5rem",
                 }}
               />
+              </a>
+              </abbr>
+              <abbr title="GitHub">
+               <a href="https://github.com/RodriguezLorena">
               <FontAwesomeIcon
                 icon={faGithub}
                 style={{
@@ -28,7 +34,9 @@ const Navbar = () => {
                   margin: "0.5rem",
                 }}
               />
-              
+              </a>
+              </abbr>
+              <abbr title="Curriculum">
                <a href="https://docs.google.com/document/d/1mzD9LveWeV9Z-gaUrB-j2wKf4ujPVURrtPK3WZliQtM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon
                 icon={faFileLines}
@@ -40,7 +48,7 @@ const Navbar = () => {
                 }}
               />
               </a>
-             
+              </abbr>
               
              </div> 
               </div>
