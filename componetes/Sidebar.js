@@ -11,6 +11,7 @@ const Sidebar = () => {
       <ul className={style.ul}>
         <li className={style.li}>
           <Link href="/">
+            <abbr title="Home">
             <a className={style.a} href="">
             <FontAwesomeIcon
                 icon={faHouse}
@@ -21,11 +22,13 @@ const Sidebar = () => {
                   margin: "0.5rem",
                 }}/>
             </a>
+            </abbr>
           </Link>
         </li>
 
         <li className={style.li}>
           <Link href="#SobreMi">
+          <abbr title="Sobre Mi">
             <a className={style.a}>
               <FontAwesomeIcon
                 icon={faAddressCard}
@@ -36,10 +39,12 @@ const Sidebar = () => {
                   margin: "0.5rem",
                 }}/>
                 </a>
+                </abbr>
           </Link>
         </li>
         <li className={style.li}>
           <Link href="#Skill">
+          <abbr title="Habilidades">
             <a className={style.a}>
             <FontAwesomeIcon
                 icon={faUserGear}
@@ -50,10 +55,12 @@ const Sidebar = () => {
                   margin: "0.5rem",
                 }}/>
             </a>
+            </abbr>
           </Link>
         </li>
         <li className={style.li}>
           <Link href="#Proyectos">
+          <abbr title="Poyectos">
             <a className={style.a}>
             <FontAwesomeIcon
                 icon={faFileCode}
@@ -64,10 +71,12 @@ const Sidebar = () => {
                   margin: "0.5rem",
                 }}/>
             </a>
+            </abbr>
           </Link>
         </li>
         <li className={style.li}>
           <Link href="#Contacto">
+          <abbr title="Contactame">
             <a className={style.a}>
             <FontAwesomeIcon
                 icon={faEnvelope}
@@ -78,6 +87,7 @@ const Sidebar = () => {
                   margin: "0.5rem",
                 }}/>
             </a>
+            </abbr>
           </Link>
         </li>
       </ul>
