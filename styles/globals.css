@@ -2,7 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0 ;
-  background-color: rgb(3, 1, 21); 
+  /* background-color: rgb(3, 1, 21);  */
+  background-color: rgb(246, 216, 231);
 }
 
 a {
@@ -15,7 +16,7 @@ a {
 }
 
 h1{
-  color: #fff;
+  color: rgb(3, 1, 21);
   font-size: 3rem;
   font-weight: bold;
   margin: 0%;
@@ -23,7 +24,7 @@ h1{
 }
 
 p{
-  color: #fff;
+  color: rgb(3, 1, 21);
   text-align: center;
   font-size: 1.5rem;
 }

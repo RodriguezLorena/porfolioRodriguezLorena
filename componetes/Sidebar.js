@@ -18,7 +18,7 @@ const Sidebar = () => {
                 style={{
                   width: "2rem",
                   height: "2rem",
-                  color: "#9fb0bd",
+                  color: "rgb(3, 1, 21)",
                   margin: "0.5rem",
                 }}/>
             </a>
@@ -35,7 +35,7 @@ const Sidebar = () => {
                 style={{
                   width: "2rem",
                   height: "2rem",
-                  color: "#9fb0bd",
+                  color: "rgb(3, 1, 21)",
                   margin: "0.5rem",
                 }}/>
                 </a>
@@ -51,7 +51,7 @@ const Sidebar = () => {
                 style={{
                   width: "2rem",
                   height: "2rem",
-                  color: "#9fb0bd",
+                  color: "rgb(3, 1, 21)",
                   margin: "0.5rem",
                 }}/>
             </a>
@@ -67,7 +67,7 @@ const Sidebar = () => {
                 style={{
                   width: "2rem",
                   height: "2rem",
-                  color: "#9fb0bd",
+                  color: "rgb(3, 1, 21)",
                   margin: "0.5rem",
                 }}/>
             </a>
@@ -83,7 +83,7 @@ const Sidebar = () => {
                 style={{
                   width: "2rem",
                   height: "2rem",
-                  color: "#9fb0bd",
+                  color: "rgb(3, 1, 21)",
                   margin: "0.5rem",
                 }}/>
             </a>
