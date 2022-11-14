@@ -9,7 +9,7 @@ const Contacto = () => {
         <p>
           Actualmente estoy buscando nuevos retos, motivada por desempeñarme de
           forma optima, conjunta, eficiente y creativa, asumiendo riesgos que
-          nos lleven a cumplir nuestros objetivos{" "}
+          nos lleven a cumplir nuestros objetivos
         </p>
 
         <button>
