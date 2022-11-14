@@ -18,7 +18,7 @@ const Contacto = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            CONTACTAME: lorenarodriguezdev@gmail
+            CONTACTAME: lorenarodriguezdev@gmail.com
           </a>
         </button>
         <span className={style.spam}>
