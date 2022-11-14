@@ -1,7 +1,6 @@
 import animationData from "../lottie/home.json";
 import Lottie from "react-lottie";
 import style from "../styles/PaginaInicial.module.css";
-import Sidebar from "./Sidebar";
 
 const defaultOptions = {
   loop: true,

@@ -13,35 +13,27 @@ import {
   faReact,
   faSass,
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  faCake,
-  faHardDrive,
-  faInbox,
-  faVoicemail,
-} from "@fortawesome/free-solid-svg-icons";
 import Layout from "./Layout";
-import animationData from "../lottie/habilidades.json";
-import Lottie from "react-lottie";
 
-const defaultOptions = {
-  loop: true,
-  autoplay: true,
-  animationData: animationData,
-  rendererSettings: {
-    preserveAspectRatio: "xMidYMid slice",
-  },
-};
+// import animationData from "../lottie/habilidades.json";
+// import Lottie from "react-lottie";
+
+// const defaultOptions = {
+//   loop: true,
+//   autoplay: true,
+//   animationData: animationData,
+//   rendererSettings: {
+//     preserveAspectRatio: "xMidYMid slice",
+//   },
+// };
 
 const Skill = () => {
   return (
     <Layout>
       <div className={style.container} id="Skill">
         <h1>Mis Habilidades</h1>
-
-        <Lottie
-          options={defaultOptions}
-          style={{ height: "40%", width: "40%" }}
-        />
+       
+      
         <div className={style.containerIcons}>
           <FontAwesomeIcon
           className={style.cont}
@@ -49,7 +41,7 @@ const Skill = () => {
             style={{
               width: "2rem",
               height: "2rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -60,7 +52,7 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -70,7 +62,7 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -80,7 +72,7 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -90,7 +82,7 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -100,7 +92,7 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -110,7 +102,7 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -120,7 +112,7 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -130,7 +122,7 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -140,7 +132,7 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
@@ -150,11 +142,12 @@ const Skill = () => {
             style={{
               width: "4rem",
               height: "4rem",
-              color: "#9fb0bd",
+              color: "rgb(201, 47, 60)",
               margin: "0.5rem",
             }}
           />
         </div>
+      
       </div>
     </Layout>
   );

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faServicestack, faCcMastercard, faGoogle, faBitcoin, faLinkedin, faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
 import { faAddressCard, faCake, faEnvelope, faFile, faFileCode, faFileLines, faHardDrive, faHouse, faInbox, faUserGear, faVoicemail } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import LenguageSelector from "./LenguageSelector";
 
 
 const Sidebar = () => {
@@ -89,6 +90,9 @@ const Sidebar = () => {
             </a>
             </abbr>
           </Link>
+        </li>
+        <li>
+          {/* <LenguageSelector/> */}
         </li>
       </ul>
     </div>

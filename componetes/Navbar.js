@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faServicestack, faCcMastercard, faGoogle, faBitcoin, faLinkedin, faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
 import { faCake, faFile, faFileLines, faHardDrive, faInbox, faVoicemail } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import LenguageSelector from "./LenguageSelector";
 
 const Navbar = () => {
   return (
@@ -49,8 +50,8 @@ const Navbar = () => {
               />
               </a>
               </abbr>
-              
-             </div> 
+             <LenguageSelector/>
+              </div> 
               </div>
     </div>
   )

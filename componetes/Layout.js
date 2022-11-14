@@ -2,6 +2,7 @@ import Head from "next/head"
 import Navbar from "./Navbar"
 import Sidebar from "./Sidebar"
 import styles from '../styles/Home.module.css'
+import LenguageSelector from "./LenguageSelector"
 
 
 const Layout = ({children}) => {
@@ -15,6 +16,7 @@ const Layout = ({children}) => {
       </Head>
       <Sidebar/>
     <Navbar/>
+    
     
     {children}
     

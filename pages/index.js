@@ -10,12 +10,13 @@ import Proyectos from "../componetes/Proyectos";
 import Contacto from "../componetes/Contacto";
 import Link from "next/link";
 import Layout from "../componetes/Layout";
+import LenguageSelector from "../componetes/LenguageSelector";
+
 
 export default function Home() {
   return (
     <Layout>
       <PaginaInicial />
-
       <SobreMi />
       <Skill />
       <Proyectos />
