@@ -5,17 +5,17 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: rgb(3, 1, 21);
+    /* background-color: rgb(3, 1, 21); */
     margin-top: 2rem;
     margin: 0 auto;
   }
 
   .containerIcons{
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-gap: 30px;
+    
   }
 
   .cont{

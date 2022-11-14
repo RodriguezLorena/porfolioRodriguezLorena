@@ -7,12 +7,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(3, 1, 21);
     margin-top: 2rem;
     margin: 0 auto;
   }
   .spam{
-    color: #fff;
+    color: rgb(3, 1, 21);
     
   }
   /* @media (max-width: 768px){
