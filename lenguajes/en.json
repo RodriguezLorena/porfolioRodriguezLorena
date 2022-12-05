@@ -1,0 +1,33 @@
+{"inicial" : {
+    "preText": "my name is",
+    "title": "Silvana Lorena Rodriguez",
+    "text":"I invite you to get to know a little bit about me. How I am, what I do and what motivates me"
+},
+"sobreMi": {
+    "titleSm": "About me",
+    "textSm": "I am passionate about learning and I like to transmit to other people the knowledge that I am acquiring day after day. I started in the world of programming in 2021, and that's when I discovered that through technology, I could not only create incredible things, but also help others. I discovered my passion for challenges and problem solving, and since then I haven't stopped learning. I am currently looking for my first IT job, I work as a Full Stack Developer with a focus on FronEnd development. I have experience developing web applications with JavaScript along with technologies like React, Redux, NodeJs, Express.js, PostgreSQL, and Sequelize.js. Which I have put into practice in some individual and group projects where I strengthened skills such as teamwork, communication and adaptability."
+},
+"habilidades":{
+    "titleHab": "Skills"
+},
+"proyectos":{
+    "titlePro":" My Projects",
+    "title1": "Morena Resto-Bar",
+    "text1": "Static Web Page- html5, Css3, Bootstrap, Cloudinary.",
+    "title2": "App Dogs",
+    "text2": "Application- React, Redux, Node and Sequelize.",
+    "title3": "Pokemon-App",
+    "text3": "Application- React, Redux, Node and Sequelize. external api- pokeapi",
+    "title4": "App Recipes",
+    "text4": "Application- React, Redux, Node, Sequelize, Cssmodule. external api- spoonacular",
+    "title5": "Shopping Cart",
+    "text5": "Simulator - vanilla JavaScript, jquery ajax, localStorage"
+},
+"contacto":{
+    "titleCon": "Contact me",
+    "textCon": "I am currently looking for new challenges, motivated by performing optimally, jointly, efficiently and creatively, assuming risks that lead us to meet our objectives.",
+    "btnCallToAction":"CONTACT ME: lorenarodriguezdev@gmail.com",
+    "spamContact": "A project made with a lot of mate 🧉 and love 💖​"
+}
+
+}
