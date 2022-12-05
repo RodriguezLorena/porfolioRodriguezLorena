@@ -1,15 +1,13 @@
 import Layout from "./Layout";
 import style from "../styles/Contacto.module.css";
 
-const Contacto = () => {
+const Contacto = ({titleCon, textCon, btnCallToAction ,spamContact}) => {
   return (
     <Layout>
       <div className={style.container} id="Contacto">
-        <h1>Contactame</h1>
+        <h1>{titleCon}</h1>
         <p>
-          Actualmente estoy buscando nuevos retos, motivada por desempeñarme de
-          forma optima, conjunta, eficiente y creativa, asumiendo riesgos que
-          nos lleven a cumplir nuestros objetivos
+         {textCon}
         </p>
 
         <button>
@@ -18,11 +16,11 @@ const Contacto = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            CONTACTAME: lorenarodriguezdev@gmail.com
+            {btnCallToAction}
           </a>
         </button>
         <span className={style.spam}>
-        Un proyecto hecho con mucho mate 🧉 y amor 💖​
+        {spamContact}
       </span>
       </div>
     </Layout>
