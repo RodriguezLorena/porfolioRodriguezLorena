@@ -1,0 +1,33 @@
+{"inicial" : {
+    "preText": "Meu nome é",
+    "title": "Silvana Lorena Rodriguez",
+    "text":"Te convido a conhecer un poquito de mi. Como soy, que hago y lo que me motiva"
+},
+"sobreMi": {
+    "titleSm": "Sobre mim",
+    "textSm": "Sou apaixonada por aprender e gosto de transmitir a outras pessoas o conhecimento que vou adquirindo dia após dia. Comecei no mundo da programação em 2021, e foi aí que descobri que através da tecnologia, eu poderia não só criar coisas incríveis, como também ajudar outras pessoas. Descobri minha paixão por desafios e resolução de problemas, e desde então não parei de aprender. Atualmente estou procurando meu primeiro emprego em TI, atuo como Desenvolvedor Full Stack com foco em desenvolvimento FronEnd. Tenho experiência no desenvolvimento de aplicações web com JavaScript junto com tecnologias como React, Redux, NodeJs, Express.js, PostgreSQL e Sequelize.js. Que coloquei em prática em alguns projetos individuais e de grupo onde reforcei competências como o trabalho em equipa, a comunicação e a adaptabilidade."
+},
+"habilidades":{
+    "titleHab": "Habilidades"
+},
+"proyectos":{
+    "titlePro": "Meus Projetos",
+    "title1": "Morena Resto-Bar",
+    "text1": "Página da Web estática- html5, Css3, Bootstrap, Cloudinary.",
+    "title2": "App Dogs",
+    "text2": "Aplicação- React, Redux, Node e Sequelize.",
+    "title3": "Pokémon-App",
+    "text3": "Aplicação- React, Redux, Node e Sequelize. apipokeapi externo",
+    "title4": "App Receitas",
+    "text4": "Application- React, Redux, Node, Sequelize, Cssmodule. apisponacular externo",
+    "title5": "Carrinho de compras",
+    "text5": "Simulador - vanilla JavaScript, jquery ajax, localStorage"
+},
+"contacto":{
+    "titleCon": "Contate-me",
+    "textCon": "Atualmente estou em busca de novos desafios, motivado por atuar de forma otimizada, conjunta, eficiente e criativa, assumindo riscos que nos levem a atingir nossos objetivos.",
+    "btnCallToAction":"CONTATE-ME: lorenarodriguezdev@gmail.com",
+    "spamContact": "Um projeto feito com muito mate 🧉 e amor 💖​"
+}
+
+}
