@@ -11,15 +11,14 @@ const defaultOptions = {
   },
 };
 
-const PaginaInicial = () => {
+const PaginaInicial = ({preText, title, text}) => {
   return (
     <div className={style.container}>
       <div className={style.text}>
-      <p>Mi nombre es</p>
-      <h1>Silvana Lorena Rodriguez</h1>
+      <p>{preText}</p>
+      <h1>{title}</h1>
       <p>
-        Te invito a conocer un poquito de mi. <br />
-        Como soy, que hago y lo que me motiva
+        {text}
       </p>
       </div>
     
