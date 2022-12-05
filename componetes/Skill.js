@@ -27,11 +27,11 @@ import Layout from "./Layout";
 //   },
 // };
 
-const Skill = () => {
+const Skill = ({titleHab}) => {
   return (
     <Layout>
       <div className={style.container} id="Skill">
-        <h1>Mis Habilidades</h1>
+        <h1>{titleHab}</h1>
        
       
         <div className={style.containerIcons}>
