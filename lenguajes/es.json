@@ -1,0 +1,34 @@
+{"inicial" : {
+    "preText": "Mi nombre es",
+    "title": "Silvana Lorena Rodriguez",
+    "text":"Te invito a conocer un poquito de mi. Como soy, que hago y lo que me motiva"
+},
+"sobreMi": {
+    "titleSm": "Sobre Mi",
+    "textSm": "Soy una apasionada por el aprendisaje y me gusta trasmitir a otras personas los conocimientos que voy adquiriendo día tras día. Me inicie en el mundo de la programacion en el año 2021, y fue ahi cuando descubri que atraves de la tecnologia, no solo podia crear cosas increibles, sino tambien ayudar a otros. Descubri mi pasion por los retos y la resolucion de problemas, y desde entonces no he parado de aprender. Actualmente estoy en busca de mi primer trabajo IT, me desenvuelvo como Full Stack Developer con orientación al desarrollo FronEnd. Tengo experiencia en el desarrollo de aplicaciones web con JavaScript junto con tecnologías como React, Redux, NodeJs, Express.js, PostgreSQL y Sequelize.js. Las cuales he puesto en práctica en algunos proyectos individuales y grupales donde fortalecí habilidades como el trabajo en equipo, la comunicación y adaptabilidad."
+},
+"habilidades":{
+    "titleHab": "Habilidades"
+},
+"proyectos":{
+    "titlePro":"Mis Proyectos",
+    "title1": "Morena Resto-Bar",
+    "text1": "Pagina Web estatica- html5, Css3, Bootstrap, Cludinary.",
+    "title2": "App Dogs",
+    "text2": "Aplicacion- React, Redux, Node y Sequelize.",
+    "title3": "Pokemon-App",
+    "text3": "Aplicacion- React, Redux, Node y Sequelize. Api externa- pokeapi",
+    "title4": "App Recetas",
+    "text4": "Aplicacion- React, Redux, Node, Sequelize, Cssmodule. Api externa-  spoonacular",
+    "title5": "Carrito de Compras",
+    "text5": "Simulador- JavaScript vanilla, jquery ajax, localStorage"
+},
+"contacto":{
+    "titleCon": "Contactame",
+    "textCon": "Actualmente estoy buscando nuevos retos, motivada por desempeñarme de forma optima, conjunta, eficiente y creativa, asumiendo riesgos que nos lleven a cumplir nuestros objetivos.",
+    "btnCallToAction":"CONTACTAME: lorenarodriguezdev@gmail.com",
+    "spamContact": "Un proyecto hecho con mucho mate 🧉 y amor 💖​"
+}
+}
+
+
