@@ -2,21 +2,21 @@ import Layout from "./Layout";
 import style from "../styles/Proyectos.module.css";
 import Image from "next/image";
 
-const Proyectos = () => {
+const Proyectos = ({titlePro, title1, text1, title2, text2, title3, text3, title4, text4, title5, text5}) => {
   return (
     <Layout>
-      <h1>Mis Proyectos</h1>
+      <h1>{titlePro}</h1>
       <div className={style.container} id="Proyectos">
-        
+      
         <div className={style.cardslist}>
           <div className={style.card}>
             <div className={style.cardimage}>
               <Image className={style.img} src="/morenaRestoBar.jpeg" alt="imagen" width={800} height={500} />
             </div>
             <div className={style.cardtitle}>
-              <p className={style.titlewhite}>Morena Resto-Bar</p>
+              <p className={style.titlewhite}>{title1}</p>
             </div>
-            <p>Pagina Web estatica- html5, Css3, Bootstrap, Cludinary.</p>
+            <p>{text1}</p>
           </div>
         </div>
         <div className={style.cardslist}>
@@ -25,9 +25,9 @@ const Proyectos = () => {
               <Image className={style.img} src="/piDog.jpeg" alt="imagen" width={800} height={500} />
             </div>
             <div className={style.cardtitle}>
-              <p className={style.titlewhite}>App Dogs</p>
+              <p className={style.titlewhite}>{title2}</p>
             </div>
-            <p>Aplicacion- React, Redux, Node y Sequelize.</p>
+            <p>{text2}</p>
           </div>
         </div>
         <div className={style.cardslist}>
@@ -36,9 +36,9 @@ const Proyectos = () => {
               <Image className={style.img} src="/pokePi.png" alt="imagen" width={800} height={500} />
             </div>
             <div className={style.cardtitle}>
-              <p className={style.titlewhite}>Pokemon-App</p>
+              <p className={style.titlewhite}>{title3}</p>
             </div>
-            <p>Aplicacion- React, Redux, Node y Sequelize. Api externa- pokeapi</p>
+            <p>{text3}</p>
           </div>
         </div>
         <div className={style.cardslist}>
@@ -47,9 +47,9 @@ const Proyectos = () => {
             <Image className={style.img} src="/recetasPI.jpeg" alt="imagen" width={800} height={500} />
             </div>
             <div className={style.cardtitle}>
-              <p className={style.titlewhite}>App Recetas</p>
+              <p className={style.titlewhite}>{title4}</p>
             </div>
-            <p>Aplicacion- React, Redux, Node, Sequelize, Cssmodule. Api externa-  spoonacular </p>
+            <p>{text4}</p>
           </div>
         </div>
         <div className={style.cardslist}>
@@ -58,9 +58,9 @@ const Proyectos = () => {
             <Image className={style.img} src="/proyectoJs.coderHouse.png" alt="imagen" width={800} height={500} />
             </div>
             <div className={style.cardtitle}>
-              <p className={style.titlewhite}>Carrito de Compras</p>
+              <p className={style.titlewhite}>{title5}</p>
             </div>
-            <p>Simulador- JavaScript vanilla, jquery ajax, localStorage</p>
+            <p>{text5}</p>
           </div>
         </div>
       </div>
