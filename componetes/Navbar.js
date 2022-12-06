@@ -1,11 +1,12 @@
 import style from "../styles/Navbar.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faServicestack, faCcMastercard, faGoogle, faBitcoin, faLinkedin, faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
-import { faCake, faFile, faFileLines, faHardDrive, faInbox, faVoicemail } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
+import { faLinkedin, faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 import LenguageSelector from "./LenguageSelector";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const {es, en, pt}= props;
+  console.log("ACA NO ESTA LLEGANDO ", props);
   return (
     <div className={style.container}>
         <div className={style.content}>
@@ -38,7 +39,7 @@ const Navbar = () => {
               </a>
               </abbr>
               <abbr title="Curriculum">
-               <a href="https://docs.google.com/document/d/1mzD9LveWeV9Z-gaUrB-j2wKf4ujPVURrtPK3WZliQtM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://docs.google.com/document/d/1mzD9LveWeV9Z-gaUrB-j2wKf4ujPVURrtPK3WZliQtM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon
                 icon={faFileLines}
                 style={{
@@ -50,11 +51,25 @@ const Navbar = () => {
               />
               </a>
               </abbr>
-             <LenguageSelector/>
+              <LenguageSelector
+              es={es}
+              en={en}
+              pt={pt}/>
               </div> 
               </div>
     </div>
   )
 }
-
 export default Navbar
+
+export async function getStaticProps({ locale }) {
+  const res = await import(`../lenguajes/${locale}.json`);
+  
+  return {
+    props: {
+      es: res.default.lenguage.es,
+      en: res.default.lenguage.en,
+      pt: res.default.lenguage.pt
+    },
+  };
+}
