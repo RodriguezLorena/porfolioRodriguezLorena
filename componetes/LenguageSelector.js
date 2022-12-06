@@ -1,7 +1,9 @@
 import React from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
-const LenguageSelector = () => {
+
+const LenguageSelector = ({es, en, pt}) => {
   const router = useRouter();
   console.log(router);
 
@@ -12,9 +14,9 @@ const LenguageSelector = () => {
   };
   return (
     <select onChange={changeLanguage}>
-      <option value="es">Español</option>
-      <option value="en">English</option>
-      <option value="pt">Português</option>
+      <option value="es">🇪🇸</option>
+      <option value="en">🇵🇹</option>
+      <option value="pt">🇺🇸</option>
     </select>
   );
 };
