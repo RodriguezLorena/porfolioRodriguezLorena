@@ -1,20 +1,13 @@
-import Head from "next/head";
-
-import animationData from "../lottie/home.json";
-import Lottie from "react-lottie";
 import PaginaInicial from "../componetes/PaginaInicial";
-import Navbar from "../componetes/Navbar";
 import Skill from "../componetes/Skill";
 import SobreMi from "../componetes/SobreMi";
 import Proyectos from "../componetes/Proyectos";
 import Contacto from "../componetes/Contacto";
-import Link from "next/link";
 import Layout from "../componetes/Layout";
-import LenguageSelector from "../componetes/LenguageSelector";
-
 
 export default function Home(props) {
   const { preText, title, text, titleSm, textSm, titleHab, titlePro, title1, text1, title2, text2, title3, text3, title4, text4, title5, text5, titleCon, textCon, btnCallToAction ,spamContact}= props;
+  console.log("ACA HAY ALGO ", props);
   return (
     <Layout>
       <PaginaInicial 
